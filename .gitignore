@@ -1,0 +1,13 @@
+# macOS system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Media files
+*.mp3
+*.mp4
+
+# Other temporary or log files
+transcription.txt

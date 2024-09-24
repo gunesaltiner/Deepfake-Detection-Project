@@ -25,7 +25,7 @@ class SpeechToText:
             device=self.device
         )
 
-    def video_to_mp3(self, video_path, output_audio_path="output_audio.mp3"):
+    def video_to_mp3(self, video_path, output_audio_path="path_to_your_audio.mp3"):
         video_clip = VideoFileClip(video_path)
         audio_clip = video_clip.audio
         audio_clip.write_audiofile(output_audio_path, codec="mp3")
